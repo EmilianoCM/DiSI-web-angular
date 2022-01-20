@@ -11353,3 +11353,11 @@ html {
 .copyright {
     background-color: #1a252f;
 }
+
+.slide {
+    margin-top: px;
+}
+
+.slide img {
+    height: 65vh;
+}
