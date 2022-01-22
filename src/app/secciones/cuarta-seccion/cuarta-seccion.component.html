@@ -1,72 +1,40 @@
-<section class="page-section" id="contact">
-    <div class="container">
-        <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
+<section>
+    <div id="carouselExampleCaptions" class="mastheadDos carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <!-- Contact Section Form-->
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-7">
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <!-- Name input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                        <label for="name">Full name</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                    </div>
-                    <!-- Email address input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                        <label for="email">Email address</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                    </div>
-                    <!-- Phone number input-->
-                    <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                        <label for="phone">Phone number</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                    </div>
-                    <!-- Message input-->
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                        <label for="message">Message</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage">
-                        <div class="text-center text-danger mb-3">Error sending message!</div>
-                    </div>
-                    <!-- Submit Button-->
-                    <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                </form>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../../../assets/LPR1.png" alt="LPR1" class=" img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-carrusel text-opacity-75">Usamos la innovación como motor de las ideas.</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../../assets/LPR2.png" alt="LPR2" class=" img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-carrusel">La creatividad como herramienta para resolver problemas complejos.</h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../../../assets/LPR3.png" alt="LPR3" class=" img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-carrusel text-opacity-100">Confianza en las interacciones humanas. Creer para ver.</h5>
+                    <p></p>
+                </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
     </div>
 </section>

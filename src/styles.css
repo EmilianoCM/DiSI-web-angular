@@ -4354,7 +4354,7 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: space-between;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    /* padding-bottom: 0.5rem; */
 }
 
 .navbar>.container,
@@ -4372,7 +4372,6 @@ fieldset:disabled .btn {
 
 .navbar-brand {
     padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
     text-decoration: none;
@@ -4398,7 +4397,7 @@ fieldset:disabled .btn {
 
 .navbar-text {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    /* padding-bottom: 0.5rem; */
 }
 
 .navbar-collapse {
@@ -8354,7 +8353,17 @@ fieldset:disabled .btn {
 
 .text-black {
     --bs-text-opacity: 1;
+    font-size: 2rem;
     color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-carrusel {
+    --bs-text-opacity: 1;
+    font-size: 1.5rem;
+    color: var(--bs-body-color-rgb) !important;
+    box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+    background-color: rgba(33, 37, 41, 0.5);
+    border-radius: 1px;
 }
 
 .text-white {
@@ -11218,7 +11227,7 @@ html {
 @media (min-width: 992px) {
     #mainNav {
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        /* padding-bottom: 1.5rem; */
         transition: padding-top 0.3s, padding-bottom 0.3s;
     }
     #mainNav .navbar-brand {
@@ -11270,6 +11279,11 @@ html {
 .masthead {
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
+}
+
+.mastheadDos {
+    padding-top: calc(0.5rem + 74px);
+    padding-bottom: 1rem;
 }
 
 .masthead .masthead-heading {
@@ -11352,12 +11366,4 @@ html {
 
 .copyright {
     background-color: #1a252f;
-}
-
-.slide {
-    margin-top: px;
-}
-
-.slide img {
-    height: 65vh;
 }
